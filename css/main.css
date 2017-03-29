@@ -1,0 +1,12 @@
+img {
+	max-width: 100%;
+}
+
+.footer {
+	height: 5000px;
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}

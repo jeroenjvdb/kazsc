@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KAZSC | Koninklijke Antwerpse Zwemclub Scaldis</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css">
+	<style type="text/css">
+	img {
+		width: 100%;
+	}
+	.intro	{
+		margin-top: 50px;
+	}
+
+	.groups div {
+		padding: 50px;
+	}
+
+	.groups div img {
+		width: 60%;
+	}
+		
+	h1, h2, h3 {
+		text-transform: uppercase;
+	}
+
+	h1::first-letter, h2::first-letter, h3::first-letter {
+		color: #D73928;
+
+	}
+
+	h1 .bordered {
+		display: inline-block;
+	}
+
+	h1 .bordered::first-letter {
+		color: #D73928;
+	}
+
+	.item {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	h1 .bordered::before, h1 .bordered::after {
+		content: "";
+		width: 100%;
+		height: 2px;
+
+		background-color: #D73928;
+		display: inline-block;
+	}
+
+	h1 .bordered::after {
+		position: relative;
+		top: -23px;
+	}
+
+		.color-red {
+			color: #D73928;
+		}
+}
+	</style>
+</head>
+<body>
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg"></div>
+<div class="container-fluid">
+	<div class="row intro">
+		<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5 text-center">
+			<img src="img/logo.jpg">
+		</div>		
+		<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+			<h1>
+			<div class="bordered">
+			<span class="color-red">K</span><span class="">oninklijke </span><!--
+			--><span class="color-red">A</span><span class="">ntwerpse </span><!--
+			--><span class="color-red">Z</span><span class="">wemclub </span><!--
+			--><span class="color-red">Sc</span><span class="">aldis</span>
+		</div>
+</h1>
+
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
+			KAZSC is een sportvereniging die alom waterplezier betekent... Wil u leren zwemmen of wenst u zich te vervolmaken in competitiezwemmen, waterpolo, synchroonzwemmen of schoonspringen, kom dan naar ons! Ervaren, enthousiaste, gemotiveerde en gediplomeerde medewerkers staan daarbij garant voor een optimale begeleiding van de sporters. 
+		</div>
+		</div>
+	</div>
+
+	<div class="row text-center groups">
+		<div class="col-md-3 col-sm-6"><a href="http://kazsc-schoonspringen.wix.com/kazsc_schoonspringen"><img src="img/symbool schoonspringen.jpg" alt=""><br>
+				Schoonspringen	
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6"><a href="http://www.synchrodolfins.be/"><img src="img/symbool synchro.jpg" alt=""><br>	
+				Synchro
+		</a></div>
+		<div class="col-md-3 col-sm-6"><a href="http://www.kazsc-waterpolo.be/"><img src="img/symbool waterpolo.jpg" alt=""><br>	
+				Waterpolo
+		</a></div>
+		<div class="col-md-3 col-sm-6"><a href="http://www.kazsc.be/blog"><img src="img/symbool zwemmen.jpg" alt=""><br>	
+				Zwemmen
+		</a></div>
+	</div>
+</div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg"></div>
+
+<div class="container-fluid">
+	<div class="row">	
+		<div class="col-md-8 col-md-offset-2">	
+				<div class="row">
+				<div class="col-md-6">	
+					<h3>Kalender</h3>
+					<div id="calendar"></div>
+				</div>
+				<div class="col-md-6">
+					<h3>Blog</h3>
+					<div class="item">	
+						<h4>Wafelslag</h4>
+						<p>Om de club financieel te steunen is er een wafelslag.
+						Alle info in het bestelformulier.</p>
+						<a href="#artikel">verder lezen</a>
+					</div>
+					<div class="item">	
+						<h4>Wafelslag</h4>
+						<p>Om de club financieel te steunen is er een wafelslag.
+						Alle info in het bestelformulier.</p>
+						<a href="#artikel">verder lezen</a>
+					</div>
+					<div class="item">	
+						<h4>Wafelslag</h4>
+						<p>Om de club financieel te steunen is er een wafelslag.
+						Alle info in het bestelformulier.</p>
+						<a href="#artikel">verder lezen</a>
+					</div>
+					<a href="kazsc.be/blog" class="pull-right">meer artikels</a>
+				</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer"></div>
+
+
+
+	
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
